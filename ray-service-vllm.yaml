@@ -52,7 +52,7 @@ spec:
     ######################headGroupSpecs#################################
     # Ray head pod template.
     headGroupSpec:
-      serviceType: LoadBalancer
+      #serviceType: LoadBalancer
       headService:
         metadata:
           name: vllm
